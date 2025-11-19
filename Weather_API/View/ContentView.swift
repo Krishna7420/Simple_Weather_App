@@ -18,7 +18,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             // 1) Solid dark base (prevents white showing through)
-            Color(red: 0.01, green: 0.03, blue: 0.08)
+            Color(red: 0.02, green: 0.04, blue: 0.09)
                 .ignoresSafeArea()
             
             // 2) Animated background layers
